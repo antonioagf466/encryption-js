@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption Tool</title>
+    <link rel="stylesheet" href="encryptstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encryption Tool</h1>
+        <label for="encryption-number">Which encryption are we working with (1 - 10)?:</label>
+        <input type="number" id="encryption-number" min="1" max="10">
+        <button id="randomize">Randomize</button>
+        <p id="randomized-number"></p>
+
+        <div class="options">
+            <button id="encrypt" class="change">Encrypt a Message</button>
+            <button id="decrypt" class="change">Decrypt a Message</button>
+        </div>
+
+        <textarea id="message" placeholder="Enter your message here..."></textarea>
+        <button id="submit">Submit</button>
+
+        <h2>Result:</h2>
+        <p id="result"></p>
+    </div>
+
+    <script src="encryptrando.js"></script> 
+</body>
+</html>
